@@ -4,8 +4,7 @@ class MainClass
 {
     static void Main(string[] args)
     {
-        string MyName;
-        MyName = "Milana";
+        const string MyName = "Milana";
 
         Console.WriteLine(MyName);
 
